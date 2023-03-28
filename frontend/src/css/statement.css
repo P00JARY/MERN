@@ -1,0 +1,30 @@
+.driving-school-statement {
+    font-family: Arial, sans-serif;
+  }
+  
+  .driving-school-statement table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .driving-school-statement th,
+  .driving-school-statement td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .driving-school-statement th {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .driving-school-statement tr:hover {
+    background-color: #f5f5f5;
+  }
+  
+  .driving-school-statement input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+  }

@@ -1,0 +1,57 @@
+
+
+nav {
+    background-color: rgb(220, 193, 21);
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin:1%;
+   
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  li {
+    float: left;
+    padding-left: 5%;
+    color: rgb(10, 10, 11);
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .card-number {
+    width: 30px;
+    height: 30px;
+    background-color: #ccc;
+    text-align: center;
+    line-height: 30px;
+    margin: 5px;
+    cursor: pointer;
+  }
+  
+  .card-number.clicked {
+    background-color: rgb(10, 232, 39);
+  }
+
+  #adminnav{
+    padding-left: 5%;
+  }
